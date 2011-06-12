@@ -9,4 +9,8 @@ module ApplicationHelper
       "#{base_title} | #{@title}"
     end
   end
+  
+  def logo
+    logo = image_tag("CxC_IDB_002_Logo.png", :alt => "CxClipboard.com Logo", :class => "round")
+  end
 end
